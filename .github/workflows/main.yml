@@ -32,3 +32,4 @@ jobs:
         with:
           cc: ${{ matrix.config.cc }}
           cxx: ${{ matrix.config.cxx }}
+      - run: : echo $PATH

@@ -28,7 +28,7 @@ jobs:
           }
     steps:
       - uses: actions/checkout@master
-      - run: cmake -v
+      - run: cmake --version
       - uses: ashutoshvarma/action-cmake-build@master
         with:
           cc: ${{ matrix.config.cc }}

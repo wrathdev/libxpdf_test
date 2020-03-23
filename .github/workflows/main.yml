@@ -35,5 +35,5 @@ jobs:
           version: 1.10.0
       - uses: ashutoshvarma/action-cmake-build@master
         with:
-          configure-options: -G Ninja
+          configure-options: -G Ninja -DMSVC_TOOLSET_VERSION=142
       

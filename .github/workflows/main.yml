@@ -33,7 +33,10 @@ jobs:
       - uses: ashutoshvarma/setup-ninja@master
         with:
           version: 1.10.0
+      - run: ninja --version
       - uses: ashutoshvarma/action-cmake-build@master
         with:
+          cc: cl
+          cxx: cl
           configure-options: -G Ninja -DMSVC_TOOLSET_VERSION=142
       

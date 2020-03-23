@@ -28,7 +28,8 @@ jobs:
 #           }
     steps:
       - uses: actions/checkout@master
-      - run: cmake --version
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.0.0
       - uses: ashutoshvarma/setup-ninja@master
         with:
           version: 1.10.0

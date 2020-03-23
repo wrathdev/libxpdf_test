@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: cmake --version
-      - uses: ashutoshvarma/setup-ninja
+      - uses: ashutoshvarma/setup-ninja@master
         with:
           version: 1.10.0
       - uses: ashutoshvarma/action-cmake-build@master

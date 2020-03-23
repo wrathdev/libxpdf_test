@@ -35,7 +35,5 @@ jobs:
           version: 1.10.0
       - uses: ashutoshvarma/action-cmake-build@master
         with:
-          cc: ${{ matrix.config.cc }}
-          cxx: ${{ matrix.config.cxx }}
           configure-options: -G Ninja
       

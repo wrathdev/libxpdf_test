@@ -27,7 +27,6 @@ jobs:
 #             cxx: "clang++"
 #           }
     steps:
-#       - uses: actions/checkout@master
       - run: "C:\\Program Files\\Git\\bin\\bash.exe" -c "comm --version"
         shell: cmd
 #       - name: Setup MSBuild

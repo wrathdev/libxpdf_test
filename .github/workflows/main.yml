@@ -28,7 +28,7 @@ jobs:
 #           }
     steps:
 #       - uses: actions/checkout@master
-      - run: "C:\Program Files\Git\bin\bash.exe" -c "comm --version"
+      - run: "C:\\Program Files\\Git\\bin\\bash.exe" -c "comm --version"
         shell: cmd
 #       - name: Setup MSBuild
 #         uses: ilammy/msvc-dev-cmd@v1
